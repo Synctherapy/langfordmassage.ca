@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="28" cy="30" r="14" fill="#007a33"/>
+  <path d="M28 20l7 4v6c0 5-7 8-7 8s-7-3-7-8v-6z" fill="#ffffff"/>
+  <text x="50" y="27" font-family="'Satoshi', 'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#007a33">Green Shield</text>
+  <text x="50" y="41" font-family="'Satoshi', 'Inter', sans-serif" font-size="10" font-weight="500" fill="#6b7280">Provider Connect</text>
+</svg>
