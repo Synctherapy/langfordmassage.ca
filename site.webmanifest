@@ -1,0 +1,16 @@
+{
+  "name": "Massage Langford - Registered Massage Therapy",
+  "short_name": "Massage Langford",
+  "description": "Licensed Registered Massage Therapy (RMT) and Athletic Therapy in Langford, BC. 100% online booking and direct billing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0c22",
+  "theme_color": "#5b4b9b",
+  "icons": [
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

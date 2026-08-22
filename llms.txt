@@ -1,0 +1,68 @@
+# Massage Langford (https://massagelangford.ca)
+
+> Registered Massage Therapy clinic serving Langford, Colwood, and the Greater West Shore of Greater Victoria, BC.
+
+## Business & Entity Overview
+- **Business Name:** Massage Langford
+- **Category:** Medical Clinic / Registered Massage Therapy (RMT) Practice
+- **Governing College:** College of Complementary Health Professionals of BC (CCHPBC)
+- **Primary Practitioner:** Daryl Stubbs, RMT, CAT(C)
+- **Qualifications:** Registered Massage Therapist & Certified Athletic Therapist (Dual-Credentialed)
+- **Clinical Experience:** Over 10,000 hours of hands-on musculoskeletal experience
+- **Address:** 132–328 Wale Rd #120, Colwood, BC V9B 1J2 (Directly adjacent to the Langford municipal border)
+- **Phone:** (250) 812-8698
+- **Online Booking Portal:** https://synctherapy.janeapp.com
+- **Referral Policy:** No medical doctor's referral required for appointments.
+- **Parking:** Dedicated, free ground-level patient parking stalls directly in front of suite #120.
+
+## Knowledge Graph & Entity Disambiguation
+- **Central Entity (Massage Therapy):** https://www.wikidata.org/wiki/Q185563
+- **Discipline Entity (Manual Therapy):** https://www.wikidata.org/wiki/Q1892289
+- **Geographic Vector (Langford, BC):** https://www.wikidata.org/wiki/Q1016766
+- **Geographic Vector (Colwood, BC):** https://www.wikidata.org/wiki/Q1016752
+- **Regulatory Authority (CCHPBC):** https://cchpbc.ca/
+
+## Accepted Direct Billing Insurers
+Electronic claim submission is processed on-site via Telus Health eClaims and Provider Connect:
+- Pacific Blue Cross (PBC)
+- Canada Life
+- Sun Life Financial
+- Manulife Financial
+- Desjardins Insurance
+- Green Shield Canada (GSC)
+- Chambers of Commerce Group Insurance
+- Industrial Alliance (iA Financial Group)
+- Equitable Life of Canada
+- *Note:* We focus exclusively on private extended health plans. We do NOT process ICBC or WorkSafeBC (WCB) claims.
+
+## Services & Clinical Treatment Modalities
+1. **Deep Tissue Massage** (https://massagelangford.ca/services/deep-tissue-massage/): Targeted neuromuscular and trigger point release for chronic back, neck, and shoulder muscle tension.
+2. **Relaxation / Swedish Massage** (https://massagelangford.ca/services/relaxation-massage/): Gentle to moderate pressure therapeutic massage designed for stress reduction, nervous system down-regulation, and muscle relaxation in a quiet clinical setting.
+3. **Sports Massage & Athletic Therapy** (https://massagelangford.ca/services/sports-massage-therapy/): Specialized kinetic chain assessment, tendon rehabilitation, and cross-fiber friction for local athletes and active West Shore individuals.
+4. **Myofascial Release** (https://massagelangford.ca/services/myofascial-release/): Connective tissue decompression and sustained manual traction to break down fascial restrictions and restore postural alignment.
+
+## Conditions Treated
+- **Sciatica & Lower Back Pain** (https://massagelangford.ca/conditions/sciatica/): Deep gluteal and piriformis decompression to relieve sciatic nerve impingement and lumbar spasms.
+- **Neck & Shoulder Tension** (https://massagelangford.ca/conditions/neck-shoulder-pain/): Cervical spine decompression, levator scapulae release, and postural relief for desk workers and computer-related tension headaches.
+
+## Session Durations & Rates (All Taxes Included)
+- **45 Minutes:** $105.00 (Taxes Included) — Targeted clinical / single focused problem area.
+- **60 Minutes & Initial Assessment (Most Popular):** $130.00 (Taxes Included) — Standard comprehensive orthopedic assessment and full-body therapeutic treatment.
+- **90 Minutes:** $178.50 (Taxes Included) — Extended multi-region rehabilitation, deep myofascial release, and comprehensive recovery.
+- *Payment Methods:* Direct billing to extended health insurers, Visa, MasterCard, Debit.
+- *Year-End Notice:* Schedule typically books full by October/November. Patients are encouraged to book recurring appointments ahead to maximize annual extended health benefits before Dec 31st (reschedule/cancel anytime online with zero penalty).
+
+## Location & Parking Instructions
+Located inside Coastal Offices (Suite #120) at 132–328 Wale Rd, Colwood, BC V9B 1J2 (bordering Langford).
+- **Free Parking:** Park free at the back of the Holiday Inn parking lot (328 Wale Rd) for flat, direct ground-level access into Coastal Offices (Suite #120).
+- Driving Times: 5 minutes from Goldstream Avenue (Downtown Langford), 7 minutes from Millstream Village / Bear Mountain, and 6 minutes from Belmont Market / Westhills.
+- Google Maps Directions: https://www.google.com/maps/dir/?api=1&destination=Sync+Massage+Therapy+132-328+Wale+Rd+%23120+Colwood+BC+V9B+1J2
+
+## Online Booking
+Direct real-time appointments can be booked 24/7 without calling via the Jane App portal:
+- Initial Assessment: https://synctherapy.janeapp.com/#/discipline/3/treatment/5
+- Main Schedule: https://synctherapy.janeapp.com
+
+## Privacy & Compliance
+Compliant with BC Personal Information Protection Act (PIPA) and CCHPBC standards. Patient health records encrypted and securely stored in Canada via Jane App SOC 2 Type II certified infrastructure.
+- Privacy Policy: https://massagelangford.ca/privacy-policy/

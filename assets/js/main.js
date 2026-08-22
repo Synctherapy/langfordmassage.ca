@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let quizState = {
     location: '',
     duration: '',
-    trigger: ''
+    directBill: ''
   };
 
   const step1 = document.getElementById('quizStep1');
@@ -94,7 +94,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const recTitle = document.getElementById('quizRecTitle');
   const recDesc = document.getElementById('quizRecDesc');
   const recProtocol = document.getElementById('quizRecProtocol');
+  const recBilling = document.getElementById('quizRecBilling');
+  const recContextLink = document.getElementById('quizRecContextLink');
+  const recBookingBtn = document.getElementById('quizBookingBtn');
   const resetBtn = document.getElementById('quizResetBtn');
+
+  const INITIAL_BOOKING_URL = 'https://synctherapy.janeapp.com/#/discipline/3/treatment/5';
 
   if (quizOptionBtns.length > 0) {
     quizOptionBtns.forEach(btn => {
@@ -115,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             step3.classList.add('active');
           }
         } else if (step === '3') {
-          quizState.trigger = value;
+          quizState.directBill = value;
           if (step3 && resultStep) {
             step3.classList.remove('active');
             resultStep.classList.add('active');
@@ -129,28 +134,61 @@ document.addEventListener('DOMContentLoaded', () => {
   function generateQuizRecommendation(state) {
     if (!recTitle || !recDesc || !recProtocol) return;
 
+    if (recBookingBtn) {
+      recBookingBtn.href = INITIAL_BOOKING_URL;
+    }
+
+    // Direct Billing Message
+    if (recBilling) {
+      if (state.directBill === 'yes') {
+        recBilling.innerHTML = '<strong>💳 Direct Billing Available:</strong> Yes, we direct bill most major extended health insurers (Pacific Blue Cross, Canada Life, Sun Life, Manulife, Desjardins, Green Shield). You will be able to enter your policy & member ID into your secure Jane App intake form right after booking!';
+      } else {
+        recBilling.innerHTML = '<strong>💳 Self-Pay / Direct Reimbursement:</strong> We accept Debit, Visa, and MasterCard. You will receive an official CCHPBC-compliant RMT receipt automatically by email after your appointment for your personal records or tax deduction.';
+      }
+    }
+
+    // Clinical Recommendation & Contextual Internal Link
     if (state.location === 'neck') {
-      recTitle.textContent = 'Recommended: 60-Min Cervical & Upper Back Decompression';
-      recDesc.textContent = 'Based on your answers, your neck stiffness and headaches stem from prolonged forward head posture and tight suboccipital muscles.';
-      recProtocol.textContent = 'Treatment Plan: Hands-on suboccipital release, levator scapulae deactivation, and anterior chest opening with Daryl Stubbs, RMT & CAT(C).';
+      recTitle.textContent = 'Recommended: Initial Assessment + Cervical & Shoulder Decompression';
+      recDesc.textContent = 'Based on your answers, your neck stiffness and headaches stem from prolonged postural tension and tight suboccipital musculature.';
+      recProtocol.textContent = 'Clinical Protocol: Targeted orthopedic testing, hands-on suboccipital release, levator scapulae deactivation, and postural realignment with Daryl Stubbs, RMT & CAT(C).';
+      if (recContextLink) {
+        recContextLink.innerHTML = '📖 <em>Want to learn more?</em> Read our detailed guide on <a href="/conditions/neck-shoulder-pain/" style="color: var(--color-brand-violet); font-weight: 600; text-decoration: underline;">Clinical Neck & Shoulder Pain Therapy in Langford &rarr;</a>';
+      }
     } else if (state.location === 'back') {
-      recTitle.textContent = 'Recommended: 60-Min Lumbar & Piriformis Sciatic Release';
-      recDesc.textContent = 'Your symptoms indicate deep gluteal and lumbar muscular guarding compressing the sciatic pathway.';
-      recProtocol.textContent = 'Treatment Plan: Targeted deep tissue release on piriformis and QL muscles, followed by pelvic re-alignment stretches with Daryl Stubbs, RMT & CAT(C).';
+      recTitle.textContent = 'Recommended: Initial Assessment + Lumbar & Piriformis Sciatic Release';
+      recDesc.textContent = 'Your symptoms indicate deep gluteal and lumbar muscular tension compressing the sciatic nerve pathway.';
+      recProtocol.textContent = 'Clinical Protocol: Orthopedic assessment, deep tissue release on piriformis and QL muscles, and pelvic alignment techniques with Daryl Stubbs, RMT & CAT(C).';
+      if (recContextLink) {
+        recContextLink.innerHTML = '📖 <em>Want to learn more?</em> Read our clinical breakdown of <a href="/conditions/sciatica/" style="color: var(--color-brand-violet); font-weight: 600; text-decoration: underline;">Sciatica & Lower Back Relief in Langford &rarr;</a>';
+      }
     } else if (state.location === 'sports') {
-      recTitle.textContent = 'Recommended: 60-Min Athletic Recovery & Kinetic Chain Assessment';
-      recDesc.textContent = 'Your symptoms point to tendon overload and compensatory movement patterns from training.';
-      recProtocol.textContent = 'Treatment Plan: Cross-fiber friction, active tissue release, and Athletic Therapy assessment with Daryl Stubbs, RMT & CAT(C).';
+      recTitle.textContent = 'Recommended: Initial Assessment + Athletic Recovery & Biomechanical Analysis';
+      recDesc.textContent = 'Your responses point to tendon overload and compensatory movement patterns from training or repetitive physical activity.';
+      recProtocol.textContent = 'Clinical Protocol: Kinetic chain assessment, transverse friction, active tissue release, and Athletic Therapy recovery with Daryl Stubbs, RMT & CAT(C).';
+      if (recContextLink) {
+        recContextLink.innerHTML = '📖 <em>Want to learn more?</em> Explore our <a href="/services/sports-massage-therapy/" style="color: var(--color-brand-violet); font-weight: 600; text-decoration: underline;">Sports Massage & Athletic Therapy Protocols &rarr;</a>';
+      }
+    } else if (state.location === 'relaxation') {
+      recTitle.textContent = 'Recommended: Initial Assessment + Relaxation & Swedish Therapeutic Massage';
+      recDesc.textContent = 'Your goal is systemic stress reduction, nervous system down-regulation, and gentle muscular relief in a quiet clinical setting.';
+      recProtocol.textContent = 'Clinical Protocol: Rhythmic Swedish effleurage, gentle myofascial unwinding, and parasympathetic nervous system activation with Daryl Stubbs, RMT & CAT(C).';
+      if (recContextLink) {
+        recContextLink.innerHTML = '📖 <em>Want to learn more?</em> Explore our <a href="/services/relaxation-massage/" style="color: var(--color-brand-violet); font-weight: 600; text-decoration: underline;">Relaxation Massage Therapy Services in Langford &rarr;</a>';
+      }
     } else {
-      recTitle.textContent = 'Recommended: 60-Min Full-Body Therapeutic Assessment';
-      recDesc.textContent = 'Your responses indicate chronic postural tension across multiple joint segments.';
-      recProtocol.textContent = 'Treatment Plan: Comprehensive orthopedic assessment and targeted myofascial release with Daryl Stubbs, RMT & CAT(C).';
+      recTitle.textContent = 'Recommended: Initial Assessment + Clinical Deep Tissue Therapy';
+      recDesc.textContent = 'Your responses indicate chronic postural tension across multiple joint segments and restricted connective tissue glide.';
+      recProtocol.textContent = 'Clinical Protocol: Comprehensive orthopedic assessment, deep tissue neuromuscular release, and myofascial mobilization with Daryl Stubbs, RMT & CAT(C).';
+      if (recContextLink) {
+        recContextLink.innerHTML = '📖 <em>Want to learn more?</em> Explore our <a href="/services/deep-tissue-massage/" style="color: var(--color-brand-violet); font-weight: 600; text-decoration: underline;">Clinical Deep Tissue Massage in Langford &rarr;</a>';
+      }
     }
   }
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      quizState = { location: '', duration: '', trigger: '' };
+      quizState = { location: '', duration: '', directBill: '' };
       if (resultStep && step1) {
         resultStep.classList.remove('active');
         step1.classList.add('active');
