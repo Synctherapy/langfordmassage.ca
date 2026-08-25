@@ -7,7 +7,15 @@
   <meta name="description" content="Therapeutic deep tissue massage for Langford residents. Targeted relief for chronic back, neck & shoulder tension. Book your treatment on Wale Road.">
   <link rel="canonical" href="https://massagelangford.ca/services/deep-tissue-massage/">
   
+  <!-- Preload Critical Self-Hosted Fonts (Zero External Blocking Requests) -->
+  <link rel="preload" href="/assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-700.woff2" as="font" type="font/woff2" crossorigin>
+
   <link rel="stylesheet" href="/assets/css/style.css?v=8">
+
+  <!-- Non-blocking Deferred JavaScript -->
+  <script src="/assets/js/main.js" defer></script>
 
   <script type="application/ld+json">
   {
@@ -189,10 +197,10 @@
       <!-- Cialdini Authority & Trust Badges -->
       <section style="margin: 32px 0; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-          <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="200" height="50">
-          <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="200" height="50">
-          <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member" width="200" height="50">
-          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="200" height="50">
+          <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="200" height="50" decoding="async">
+          <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="200" height="50" decoding="async">
+          <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member" width="200" height="50" decoding="async">
+          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="200" height="50" decoding="async">
         </div>
       </section>
 
@@ -276,7 +284,5 @@
     </div>
     <a href="https://synctherapy.janeapp.com" class="btn btn-primary" target="_blank" rel="noopener">Book on Jane App &rarr;</a>
   </div>
-
-  <script src="/assets/js/main.js"></script>
 </body>
 </html>

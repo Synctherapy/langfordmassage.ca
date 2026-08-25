@@ -1,5 +1,25 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Self-Hosted Satoshi Typography (Zero External DNS / Latency) */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/satoshi-400.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/satoshi-500.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/satoshi-700.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
 
 :root {
   /* Colors - Exact SpatialChat Refero Tokens */
@@ -793,6 +813,8 @@ footer.spatial-footer {
   border-top: 1px solid var(--color-fog);
   padding: var(--spacing-64) 0 32px;
   margin-top: var(--spacing-64);
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 350px;
 }
 
 .footer-grid {

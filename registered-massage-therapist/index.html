@@ -7,7 +7,15 @@
   <meta name="description" content="Book a licensed RMT for Langford BC. Direct billing available for Pacific Blue Cross, Canada Life, Sun Life, Manulife & more. Schedule your appointment online.">
   <link rel="canonical" href="https://massagelangford.ca/registered-massage-therapist/">
   
+  <!-- Preload Critical Self-Hosted Fonts (Zero External Blocking Requests) -->
+  <link rel="preload" href="/assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-700.woff2" as="font" type="font/woff2" crossorigin>
+
   <link rel="stylesheet" href="/assets/css/style.css?v=8">
+
+  <!-- Non-blocking Deferred JavaScript -->
+  <script src="/assets/js/main.js" defer></script>
 
   <script type="application/ld+json">
   {
@@ -200,12 +208,12 @@
             <p style="font-size: var(--text-caption); margin-bottom: 16px;">We process direct billing through these major Canadian health benefit plans:</p>
 
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px;">
-              <img src="/assets/images/pacific-blue-cross-logo.svg" alt="Pacific Blue Cross Direct Billing" width="160" height="48">
-              <img src="/assets/images/canada-life-logo.svg" alt="Canada Life Telus eClaims" width="160" height="48">
-              <img src="/assets/images/sun-life-logo.svg" alt="Sun Life Financial Direct Billing" width="160" height="48">
-              <img src="/assets/images/manulife-logo.svg" alt="Manulife Extended Health" width="160" height="48">
-              <img src="/assets/images/desjardins-logo.svg" alt="Desjardins Insurance Direct Billing" width="160" height="48">
-              <img src="/assets/images/green-shield-logo.svg" alt="Green Shield Canada Provider Connect" width="160" height="48">
+              <img src="/assets/images/pacific-blue-cross-logo.svg" alt="Pacific Blue Cross Direct Billing" width="160" height="48" decoding="async">
+              <img src="/assets/images/canada-life-logo.svg" alt="Canada Life Telus eClaims" width="160" height="48" decoding="async">
+              <img src="/assets/images/sun-life-logo.svg" alt="Sun Life Financial Direct Billing" width="160" height="48" decoding="async">
+              <img src="/assets/images/manulife-logo.svg" alt="Manulife Extended Health" width="160" height="48" decoding="async">
+              <img src="/assets/images/desjardins-logo.svg" alt="Desjardins Insurance Direct Billing" width="160" height="48" decoding="async">
+              <img src="/assets/images/green-shield-logo.svg" alt="Green Shield Canada Provider Connect" width="160" height="48" decoding="async">
             </div>
 
             <div style="background-color: var(--color-cloud); border: 1px solid var(--color-fog); border-radius: var(--radius-inputs); padding: 14px;">
@@ -219,10 +227,10 @@
       <!-- Cialdini Authority & Trust Badges -->
       <section style="margin: 32px 0; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-          <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="200" height="50">
-          <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="200" height="50">
-          <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member" width="200" height="50">
-          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="200" height="50">
+          <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="200" height="50" decoding="async">
+          <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="200" height="50" decoding="async">
+          <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member" width="200" height="50" decoding="async">
+          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="200" height="50" decoding="async">
         </div>
       </section>
 
@@ -307,7 +315,5 @@
     </div>
     <a href="https://synctherapy.janeapp.com" class="btn btn-primary" target="_blank" rel="noopener">Book on Jane App &rarr;</a>
   </div>
-
-  <script src="/assets/js/main.js"></script>
 </body>
 </html>

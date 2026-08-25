@@ -13,8 +13,16 @@
   <meta property="og:description" content="Evidence-based Registered Massage Therapy serving Langford & West Shore residents. Direct billing to major health insurance plans.">
   <meta property="og:url" content="https://massagelangford.ca/">
   
+  <!-- Preload Critical Self-Hosted Fonts (Zero External Blocking Requests) -->
+  <link rel="preload" href="/assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-700.woff2" as="font" type="font/woff2" crossorigin>
+
   <!-- SpatialChat Refero Design System Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v=8">
+
+  <!-- Non-blocking Deferred JavaScript -->
+  <script src="/assets/js/main.js" defer></script>
 
   <!-- Enhanced JSON-LD Schema Markup with Google Maps, Entity Integration & PAA FAQs -->
   <script type="application/ld+json">
@@ -279,11 +287,11 @@
 
       <!-- Cialdini Authority Badges -->
       <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 28px;">
-        <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="220" height="55">
-        <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member Athletic Therapy" width="220" height="55">
-        <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="220" height="55">
+        <img src="/assets/images/cchpbc-college-badge.svg" alt="CCHPBC Regulated College" width="220" height="55" decoding="async">
+        <img src="/assets/images/bcata-association-badge.svg" alt="BCATA Member Athletic Therapy" width="220" height="55" decoding="async">
+        <img src="/assets/images/cata-athletic-therapy-badge.svg" alt="CATA Certified Athletic Therapist" width="220" height="55" decoding="async">
         <a href="https://maps.google.com/?q=Sync+Massage+Therapy+132-328+Wale+Rd+%23120+Colwood+BC" target="_blank" rel="noopener" style="text-decoration:none;">
-          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="220" height="55">
+          <img src="/assets/images/google-reviews-badge.svg" alt="Google 4.9 Star Rating (120+ Reviews)" width="220" height="55" decoding="async">
         </a>
       </div>
     </div>
@@ -1095,7 +1103,5 @@
     </div>
     <a href="https://synctherapy.janeapp.com" class="btn btn-primary" target="_blank" rel="noopener">Book on Jane App &rarr;</a>
   </div>
-
-  <script src="/assets/js/main.js"></script>
 </body>
 </html>
