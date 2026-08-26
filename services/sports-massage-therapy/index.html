@@ -20,47 +20,66 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalTherapy",
-    "name": "Sports Massage & Athletic Rehabilitation",
-    "sameAs": "https://www.wikidata.org/wiki/Q185563",
-    "description": "Specialized orthopedic sports massage therapy, active tissue recovery, and athletic rehabilitation for Langford runners, cyclists, and active residents.",
-    "about": [
+    "@graph": [
       {
-        "@type": "MedicalSpecialty",
-        "name": "Sports Medicine",
-        "sameAs": "https://www.wikidata.org/wiki/Q1059521"
+        "@type": "MedicalTherapy",
+        "@id": "https://massagelangford.ca/services/sports-massage-therapy/#therapy",
+        "name": "Sports Massage & Athletic Rehabilitation",
+        "sameAs": "https://www.wikidata.org/wiki/Q185563",
+        "description": "Specialized orthopedic sports massage therapy, active tissue recovery, and athletic rehabilitation for Langford runners, cyclists, and active residents.",
+        "provider": {
+          "@id": "https://massagelangford.ca/#clinic"
+        },
+        "about": [
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Sports Medicine",
+            "sameAs": "https://www.wikidata.org/wiki/Q1059521"
+          },
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Physical Therapy",
+            "sameAs": "https://www.wikidata.org/wiki/Q167098"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Langford",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016766"
+          },
+          {
+            "@type": "City",
+            "name": "Colwood",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016752"
+          }
+        ]
       },
       {
-        "@type": "MedicalSpecialty",
-        "name": "Physical Therapy",
-        "sameAs": "https://www.wikidata.org/wiki/Q167098"
+        "@type": "BreadcrumbList",
+        "@id": "https://massagelangford.ca/services/sports-massage-therapy/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://massagelangford.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://massagelangford.ca/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sports Massage Therapy",
+            "item": "https://massagelangford.ca/services/sports-massage-therapy/"
+          }
+        ]
       }
-    ],
-    "mentions": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Tendinopathy",
-        "sameAs": "https://www.wikidata.org/wiki/Q1760458"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Delayed Onset Muscle Soreness",
-        "sameAs": "https://www.wikidata.org/wiki/Q1153244"
-      }
-    ],
-    "provider": {
-      "@type": "MedicalClinic",
-      "name": "Massage Langford",
-      "telephone": "+1-250-812-8698",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "132–328 Wale Rd #120",
-        "addressLocality": "Colwood",
-        "addressRegion": "BC",
-        "postalCode": "V9B 1J2",
-        "addressCountry": "CA"
-      }
-    }
+    ]
   }
   </script>
   <!-- Favicon & Browser Icons -->
@@ -177,21 +196,30 @@
             </div>
           </div>
 
-          <!-- Right Column: Media Card with Verified Sports Review -->
+          <!-- Right Column: Media Card with Athletic Therapy Focus -->
           <div class="media-card">
-            <span class="tag-pill">ATHLETIC PATIENT REVIEW</span>
-            <h4>Sports Recovery Feedback</h4>
-            <div style="color: #f5a623; font-size: 16px; margin: 12px 0 8px;">⭐⭐⭐⭐⭐</div>
-            <p style="font-size: var(--text-body-sm); color: var(--color-ink-black); font-style: italic; margin-bottom: 12px;">
-              "Exceptional RMT care in the West Shore. Extremely knowledgeable in sports therapy and getting straight to the root cause of pain and athletic tightness."
-            </p>
-            <div style="font-size: var(--text-caption); font-weight: 700; color: var(--color-ink-black);">— Matthew Savard</div>
-            <div style="font-size: var(--text-caption); color: var(--color-slate); margin-bottom: 16px;">Verified Google Review · West Shore Athlete</div>
+            <span class="tag-pill">ATHLETIC THERAPY FOCUS</span>
+            <h4>Comprehensive Athletic Recovery</h4>
+            <p style="font-size: var(--text-caption); margin: 8px 0 16px; color: var(--color-slate);">An integrated clinical approach combining RMT manual therapy with Athletic Therapy assessment:</p>
+
+            <ul style="list-style: none; margin: 0 0 16px; padding: 0;">
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🔍 Kinetic Chain Assessment:</strong> Analyzing biomechanics and movement compensations driving tendon strain.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>👐 Cross-Fiber & Active Release:</strong> Targeted soft-tissue manipulation to reduce scar tissue adhesions and restore glide.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🏃 Functional Home Programming:</strong> Sport-specific mobility drills and load management strategies for peak output.
+              </li>
+            </ul>
 
             <hr style="border: none; border-top: 1px solid var(--color-fog); margin: 16px 0;">
-            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%;" target="_blank" rel="noopener">Book Sports Therapy on Jane</a>
+            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Book Sports Therapy on Jane</a>
           </div>
         </div>
+      </div>
+    </section>
       <!-- Cialdini Authority & Trust Badges -->
       <section style="margin: 32px 0; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">

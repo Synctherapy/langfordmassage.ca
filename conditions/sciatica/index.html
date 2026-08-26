@@ -20,62 +20,63 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalTherapy",
-    "name": "Sciatica & Lower Back Massage Therapy",
-    "sameAs": "https://www.wikidata.org/wiki/Q272658",
-    "description": "Clinical soft-tissue treatment and piriformis decompression for sciatica and lower back pain serving Langford and West Shore patients.",
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Sciatica",
-        "sameAs": "https://www.wikidata.org/wiki/Q272658"
-      },
-      {
-        "@type": "MedicalSpecialty",
-        "name": "Manual Therapy",
-        "sameAs": "https://www.wikidata.org/wiki/Q1892289"
-      }
-    ],
-    "mentions": [
+    "@graph": [
       {
         "@type": "MedicalTherapy",
-        "name": "Deep Tissue Massage",
-        "sameAs": "https://www.wikidata.org/wiki/Q185563"
-      },
-      {
-        "@type": "MedicalTherapy",
-        "name": "Myofascial Release",
-        "sameAs": "https://www.wikidata.org/wiki/Q6948064"
-      }
-    ],
-    "provider": {
-      "@type": "MedicalClinic",
-      "name": "Massage Langford",
-      "telephone": "+1-250-812-8698",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "132–328 Wale Rd #120",
-        "addressLocality": "Colwood",
-        "addressRegion": "BC",
-        "postalCode": "V9B 1J2",
-        "addressCountry": "CA"
-      }
-    },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Langford",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Langford,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016766"
+        "@id": "https://massagelangford.ca/conditions/sciatica/#therapy",
+        "name": "Sciatica & Lower Back Massage Therapy",
+        "sameAs": "https://www.wikidata.org/wiki/Q272658",
+        "description": "Clinical soft-tissue treatment and piriformis decompression for sciatica and lower back pain serving Langford and West Shore patients.",
+        "provider": {
+          "@id": "https://massagelangford.ca/#clinic"
+        },
+        "about": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Sciatica",
+            "sameAs": "https://www.wikidata.org/wiki/Q272658"
+          },
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Manual Therapy",
+            "sameAs": "https://www.wikidata.org/wiki/Q1892289"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Langford",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016766"
+          },
+          {
+            "@type": "City",
+            "name": "Colwood",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016752"
+          }
         ]
       },
       {
-        "@type": "City",
-        "name": "Colwood",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Colwood,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016752"
+        "@type": "BreadcrumbList",
+        "@id": "https://massagelangford.ca/conditions/sciatica/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://massagelangford.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Conditions",
+            "item": "https://massagelangford.ca/#symptom-finder"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sciatica & Lower Back Pain",
+            "item": "https://massagelangford.ca/conditions/sciatica/"
+          }
         ]
       }
     ]
@@ -193,21 +194,30 @@
             </div>
           </div>
 
-          <!-- Right Column: Media Card with Verified Sciatica Review -->
+          <!-- Right Column: Media Card with Clinical Sciatica Protocol -->
           <div class="media-card">
-            <span class="tag-pill">PATIENT CASE REVIEW</span>
-            <h4>Lower Back & Sciatica Relief</h4>
-            <div style="color: #f5a623; font-size: 16px; margin: 12px 0 8px;">⭐⭐⭐⭐⭐</div>
-            <p style="font-size: var(--text-body-sm); color: var(--color-ink-black); font-style: italic; margin-bottom: 12px;">
-              "Daryl takes a holistic approach and addresses tension in the hips and lower back, leaving you feeling lighter and moving freely. If you deal with persistent sciatica or back stiffness, his knowledge is outstanding."
-            </p>
-            <div style="font-size: var(--text-caption); font-weight: 700; color: var(--color-ink-black);">— Arielle Guetta</div>
-            <div style="font-size: var(--text-caption); color: var(--color-slate); margin-bottom: 16px;">Verified Google Review · West Shore Patient</div>
+            <span class="tag-pill">CLINICAL TREATMENT FOCUS</span>
+            <h4>Targeted Sciatic & Lumbar Relief</h4>
+            <p style="font-size: var(--text-caption); margin: 8px 0 16px; color: var(--color-slate);">Our structured approach to decompressing the sciatic pathway and restoring lumbar mobility:</p>
+
+            <ul style="list-style: none; margin: 0 0 16px; padding: 0;">
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🔍 Pelvic & Sacroiliac Alignment:</strong> Identifying SI joint asymmetry and unilateral muscular guarding.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>👐 Deep Gluteal & Piriformis Release:</strong> Concentrated manual therapy to reduce compression along the sciatic nerve.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🌿 Corrective Movement Stretches:</strong> Simple, guided hip openers and home care to sustain long-term relief.
+              </li>
+            </ul>
 
             <hr style="border: none; border-top: 1px solid var(--color-fog); margin: 16px 0;">
-            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%;" target="_blank" rel="noopener">Schedule Sciatica Session</a>
+            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Schedule Sciatica Session</a>
           </div>
         </div>
+      </div>
+    </section>
       <!-- Cialdini Authority & Trust Badges -->
       <section style="margin: 32px 0; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">

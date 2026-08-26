@@ -20,62 +20,63 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalTherapy",
-    "name": "Neck, Shoulder & Tension Headache Massage Therapy",
-    "sameAs": "https://www.wikidata.org/wiki/Q185563",
-    "description": "Evidence-based clinical soft-tissue treatment for neck stiffness, shoulder impingement, and tension headaches in Langford BC.",
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Neck Pain",
-        "sameAs": "https://www.wikidata.org/wiki/Q1048633"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Tension Headache",
-        "sameAs": "https://www.wikidata.org/wiki/Q660098"
-      }
-    ],
-    "mentions": [
+    "@graph": [
       {
         "@type": "MedicalTherapy",
-        "name": "Deep Tissue Massage",
-        "sameAs": "https://www.wikidata.org/wiki/Q185563"
-      },
-      {
-        "@type": "MedicalTherapy",
-        "name": "Myofascial Release",
-        "sameAs": "https://www.wikidata.org/wiki/Q6948064"
-      }
-    ],
-    "provider": {
-      "@type": "MedicalClinic",
-      "name": "Massage Langford",
-      "telephone": "+1-250-812-8698",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "132–328 Wale Rd #120",
-        "addressLocality": "Colwood",
-        "addressRegion": "BC",
-        "postalCode": "V9B 1J2",
-        "addressCountry": "CA"
-      }
-    },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Langford",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Langford,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016766"
+        "@id": "https://massagelangford.ca/conditions/neck-shoulder-pain/#therapy",
+        "name": "Neck, Shoulder & Tension Headache Massage Therapy",
+        "sameAs": "https://www.wikidata.org/wiki/Q185563",
+        "description": "Evidence-based clinical soft-tissue treatment for neck stiffness, shoulder impingement, and tension headaches in Langford BC.",
+        "provider": {
+          "@id": "https://massagelangford.ca/#clinic"
+        },
+        "about": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Neck Pain",
+            "sameAs": "https://www.wikidata.org/wiki/Q1048633"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Tension Headache",
+            "sameAs": "https://www.wikidata.org/wiki/Q660098"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Langford",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016766"
+          },
+          {
+            "@type": "City",
+            "name": "Colwood",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016752"
+          }
         ]
       },
       {
-        "@type": "City",
-        "name": "Colwood",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Colwood,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016752"
+        "@type": "BreadcrumbList",
+        "@id": "https://massagelangford.ca/conditions/neck-shoulder-pain/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://massagelangford.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Conditions",
+            "item": "https://massagelangford.ca/#symptom-finder"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Neck & Shoulder Pain",
+            "item": "https://massagelangford.ca/conditions/neck-shoulder-pain/"
+          }
         ]
       }
     ]
@@ -193,21 +194,30 @@
             </div>
           </div>
 
-          <!-- Right Column: Media Card with Verified Neck Pain Review -->
+          <!-- Right Column: Media Card with Clinical Treatment Protocol -->
           <div class="media-card">
-            <span class="tag-pill">PATIENT CASE REVIEW</span>
-            <h4>Neck & Shoulder Pain Relief</h4>
-            <div style="color: #f5a623; font-size: 16px; margin: 12px 0 8px;">⭐⭐⭐⭐⭐</div>
-            <p style="font-size: var(--text-body-sm); color: var(--color-ink-black); font-style: italic; margin-bottom: 12px;">
-              "Outstanding experience. Daryl discusses medical history and treatment methods thoroughly before starting to ensure the session is tailored to your exact needs. My neck and shoulder tension cleared up noticeably."
-            </p>
-            <div style="font-size: var(--text-caption); font-weight: 700; color: var(--color-ink-black);">— Alan Fuller</div>
-            <div style="font-size: var(--text-caption); color: var(--color-slate); margin-bottom: 16px;">Verified Google Review · Langford Patient</div>
+            <span class="tag-pill">CLINICAL TREATMENT FOCUS</span>
+            <h4>Targeted Cervical & Shoulder Care</h4>
+            <p style="font-size: var(--text-caption); margin: 8px 0 16px; color: var(--color-slate);">Our structured approach to resolving upper body muscular tension and tension headaches:</p>
+
+            <ul style="list-style: none; margin: 0 0 16px; padding: 0;">
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🔍 Orthopedic Range Testing:</strong> Identifying specific cervical facet restrictions and muscle guarding patterns.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>👐 Hands-On Decompression:</strong> Targeted suboccipital release and ischemic pressure on levator scapulae knots.
+              </li>
+              <li style="margin-bottom: 10px; font-size: var(--text-caption);">
+                <strong>🌿 Postural Integration:</strong> Gentle chest opening and ergonomic recommendations to prevent tension return.
+              </li>
+            </ul>
 
             <hr style="border: none; border-top: 1px solid var(--color-fog); margin: 16px 0;">
-            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%;" target="_blank" rel="noopener">Book Your Session on Jane</a>
+            <a href="https://synctherapy.janeapp.com" class="btn btn-primary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Book Your Session on Jane</a>
           </div>
         </div>
+      </div>
+    </section>
       <!-- Cialdini Authority & Trust Badges -->
       <section style="margin: 32px 0; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">

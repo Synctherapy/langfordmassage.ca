@@ -20,70 +20,66 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Registered Massage Therapy with Direct Billing",
-    "sameAs": "https://www.wikidata.org/wiki/Q185563",
-    "about": [
+    "@graph": [
       {
-        "@type": "MedicalSpecialty",
-        "name": "Massage Therapy",
-        "sameAs": "https://www.wikidata.org/wiki/Q185563"
+        "@type": "Service",
+        "@id": "https://massagelangford.ca/registered-massage-therapist/#service",
+        "name": "Registered Massage Therapy with Direct Billing",
+        "serviceType": "Registered Massage Therapy",
+        "provider": {
+          "@id": "https://massagelangford.ca/#clinic"
+        },
+        "sameAs": "https://www.wikidata.org/wiki/Q185563",
+        "about": [
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Massage Therapy",
+            "sameAs": "https://www.wikidata.org/wiki/Q185563"
+          },
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Physical Therapy",
+            "sameAs": "https://www.wikidata.org/wiki/Q167098"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Langford",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016766"
+          },
+          {
+            "@type": "City",
+            "name": "Colwood",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016752"
+          },
+          {
+            "@type": "Place",
+            "name": "West Shore",
+            "sameAs": "https://en.wikipedia.org/wiki/Western_Communities"
+          }
+        ],
+        "description": "Licensed Registered Massage Therapy providing therapeutic care, deep tissue relief, and direct billing to extended health insurance for Langford and West Shore patients."
       },
       {
-        "@type": "MedicalSpecialty",
-        "name": "Physical Therapy",
-        "sameAs": "https://www.wikidata.org/wiki/Q167098"
-      }
-    ],
-    "mentions": [
-      {
-        "@type": "MedicalTherapy",
-        "name": "Deep Tissue Massage",
-        "sameAs": "https://www.wikidata.org/wiki/Q185563"
-      },
-      {
-        "@type": "MedicalTherapy",
-        "name": "Myofascial Release",
-        "sameAs": "https://www.wikidata.org/wiki/Q6948064"
-      }
-    ],
-    "provider": {
-      "@type": "MedicalClinic",
-      "name": "Massage Langford",
-      "telephone": "+1-250-812-8698",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "132–328 Wale Rd #120",
-        "addressLocality": "Colwood",
-        "addressRegion": "BC",
-        "postalCode": "V9B 1J2",
-        "addressCountry": "CA"
-      }
-    },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Langford",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Langford,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016766"
+        "@type": "BreadcrumbList",
+        "@id": "https://massagelangford.ca/registered-massage-therapist/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://massagelangford.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Registered Massage Therapist & Direct Billing",
+            "item": "https://massagelangford.ca/registered-massage-therapist/"
+          }
         ]
-      },
-      {
-        "@type": "City",
-        "name": "Colwood",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Colwood,_British_Columbia",
-          "https://www.wikidata.org/wiki/Q1016752"
-        ]
-      },
-      {
-        "@type": "Place",
-        "name": "West Shore",
-        "sameAs": "https://en.wikipedia.org/wiki/Western_Communities"
       }
-    ],
-    "description": "Licensed Registered Massage Therapy providing therapeutic care, deep tissue relief, and direct billing to extended health insurance for Langford and West Shore patients."
+    ]
   }
   </script>
   <!-- Favicon & Browser Icons -->

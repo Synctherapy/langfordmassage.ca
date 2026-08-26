@@ -20,42 +20,61 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalTherapy",
-    "name": "Relaxation & Swedish Massage Therapy",
-    "sameAs": "https://www.wikidata.org/wiki/Q185563",
-    "description": "Evidence-based relaxation massage and nervous system down-regulation by a licensed Registered Massage Therapist (RMT) in Langford BC.",
-    "about": [
+    "@graph": [
       {
-        "@type": "MedicalSpecialty",
-        "name": "Swedish Massage",
-        "sameAs": "https://www.wikidata.org/wiki/Q185563"
-      }
-    ],
-    "mentions": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Stress",
-        "sameAs": "https://www.wikidata.org/wiki/Q123440"
+        "@type": "MedicalTherapy",
+        "@id": "https://massagelangford.ca/services/relaxation-massage/#therapy",
+        "name": "Relaxation & Swedish Massage Therapy",
+        "sameAs": "https://www.wikidata.org/wiki/Q185563",
+        "description": "Evidence-based relaxation massage and nervous system down-regulation by a licensed Registered Massage Therapist (RMT) in Langford BC.",
+        "provider": {
+          "@id": "https://massagelangford.ca/#clinic"
+        },
+        "about": [
+          {
+            "@type": "MedicalSpecialty",
+            "name": "Swedish Massage",
+            "sameAs": "https://www.wikidata.org/wiki/Q185563"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Langford",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016766"
+          },
+          {
+            "@type": "City",
+            "name": "Colwood",
+            "sameAs": "https://www.wikidata.org/wiki/Q1016752"
+          }
+        ]
       },
       {
-        "@type": "MedicalCondition",
-        "name": "Muscle Tone",
-        "sameAs": "https://www.wikidata.org/wiki/Q660098"
+        "@type": "BreadcrumbList",
+        "@id": "https://massagelangford.ca/services/relaxation-massage/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://massagelangford.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://massagelangford.ca/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Relaxation Massage",
+            "item": "https://massagelangford.ca/services/relaxation-massage/"
+          }
+        ]
       }
-    ],
-    "provider": {
-      "@type": "MedicalClinic",
-      "name": "Massage Langford",
-      "telephone": "+1-250-812-8698",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "132–328 Wale Rd #120",
-        "addressLocality": "Colwood",
-        "addressRegion": "BC",
-        "postalCode": "V9B 1J2",
-        "addressCountry": "CA"
-      }
-    }
+    ]
   }
   </script>
   <!-- Favicon & Browser Icons -->

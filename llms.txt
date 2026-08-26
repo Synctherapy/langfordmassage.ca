@@ -4,6 +4,8 @@
 
 ## Business & Entity Overview
 - **Business Name:** Massage Langford
+- **Parent Practice / Brand Entity:** Sync Therapy (https://synctherapy.ca)
+- **GBP Name:** Sync Massage Therapy
 - **Category:** Medical Clinic / Registered Massage Therapy (RMT) Practice
 - **Governing College:** College of Complementary Health Professionals of BC (CCHPBC)
 - **Primary Practitioner:** Daryl Stubbs, RMT, CAT(C)
@@ -50,7 +52,7 @@ Electronic claim submission is processed on-site via Telus Health eClaims and Pr
 - **60 Minutes & Initial Assessment (Most Popular):** $130.00 (Taxes Included) — Standard comprehensive orthopedic assessment and full-body therapeutic treatment.
 - **90 Minutes:** $178.50 (Taxes Included) — Extended multi-region rehabilitation, deep myofascial release, and comprehensive recovery.
 - *Payment Methods:* Direct billing to extended health insurers, Visa, MasterCard, Debit.
-- *Year-End Notice:* Schedule typically books full by October/November. Patients are encouraged to book recurring appointments ahead to maximize annual extended health benefits before Dec 31st (reschedule/cancel anytime online with zero penalty).
+- *Seasonal Notice:* High booking demand occurs in autumn/winter months. Patients are encouraged to book recurring appointments ahead to secure preferred times (reschedule/cancel anytime online with zero penalty).
 
 ## Location & Parking Instructions
 Located inside Coastal Offices (Suite #120) at 132–328 Wale Rd, Colwood, BC V9B 1J2 (bordering Langford).
