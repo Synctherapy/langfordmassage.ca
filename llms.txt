@@ -43,9 +43,18 @@ Electronic claim submission is processed on-site via Telus Health eClaims and Pr
 3. **Sports Massage & Athletic Therapy** (https://massagelangford.ca/services/sports-massage-therapy/): Specialized kinetic chain assessment, tendon rehabilitation, and cross-fiber friction for local athletes and active West Shore individuals.
 4. **Myofascial Release** (https://massagelangford.ca/services/myofascial-release/): Connective tissue decompression and sustained manual traction to break down fascial restrictions and restore postural alignment.
 
-## Conditions Treated
-- **Sciatica & Lower Back Pain** (https://massagelangford.ca/conditions/sciatica/): Deep gluteal and piriformis decompression to relieve sciatic nerve impingement and lumbar spasms.
-- **Neck & Shoulder Tension** (https://massagelangford.ca/conditions/neck-shoulder-pain/): Cervical spine decompression, levator scapulae release, and postural relief for desk workers and computer-related tension headaches.
+## Conditions Treated (Clinical Clusters)
+- **Sciatica & Nerve Pain** (https://massagelangford.ca/conditions/sciatica/): Deep gluteal and piriformis decompression to relieve sciatic nerve impingement.
+- **Lower Back Pain** (https://massagelangford.ca/conditions/lower-back-pain/): Lumbar erector, quadratus lumborum (QL), and pelvic realignment.
+- **Neck & Shoulder Tension** (https://massagelangford.ca/conditions/neck-shoulder-pain/): Cervical spine decompression, levator scapulae release, and desk worker posture relief.
+- **Tension Headaches** (https://massagelangford.ca/conditions/tension-headaches/): Suboccipital decompression and cervicogenic trigger point deactivation.
+- **TMJ & Jaw Pain** (https://massagelangford.ca/conditions/tmj-jaw-pain/): Masseter, pterygoid, and temporomandibular joint myofascial release.
+- **Plantar Fasciitis** (https://massagelangford.ca/conditions/plantar-fasciitis/): Gastrocnemius/soleus decompression, Achilles mobilization, and arch pain relief.
+
+## Areas Served Across West Shore (Transit & Directions)
+- **Bear Mountain** (https://massagelangford.ca/areas-served/bear-mountain/): 9–11 mins drive via Millstream Rd & Veterans Memorial Pkwy.
+- **Westhills & Langford Lake** (https://massagelangford.ca/areas-served/westhills/): 6–7 mins drive via Langford Pkwy & Sooke Rd.
+- **Belmont Market & Town Centre** (https://massagelangford.ca/areas-served/belmont-market/): 4 mins drive via Kelly Rd & Sooke Rd.
 
 ## Session Durations & Rates (All Taxes Included)
 - **45 Minutes:** $105.00 (Taxes Included) — Targeted clinical / single focused problem area.
@@ -57,7 +66,6 @@ Electronic claim submission is processed on-site via Telus Health eClaims and Pr
 ## Location & Parking Instructions
 Located inside Coastal Offices (Suite #120) at 132–328 Wale Rd, Colwood, BC V9B 1J2 (bordering Langford).
 - **Free Parking:** Park free at the back of the Holiday Inn parking lot (328 Wale Rd) for flat, direct ground-level access into Coastal Offices (Suite #120).
-- Driving Times: 5 minutes from Goldstream Avenue (Downtown Langford), 7 minutes from Millstream Village / Bear Mountain, and 6 minutes from Belmont Market / Westhills.
 - Google Maps Directions: https://www.google.com/maps/dir/?api=1&destination=Sync+Massage+Therapy+132-328+Wale+Rd+%23120+Colwood+BC+V9B+1J2
 
 ## Online Booking
