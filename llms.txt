@@ -4,7 +4,7 @@
 
 ## Business & Entity Overview
 - **Business Name:** Massage Langford
-- **Parent Practice / Brand Entity:** Sync Therapy (https://synctherapy.ca)
+- **Parent Practice / Brand Entity:** Sync Therapy (https://www.synctherapy.ca)
 - **GBP Name:** Sync Massage Therapy
 - **Category:** Medical Clinic / Registered Massage Therapy (RMT) Practice
 - **Governing College:** College of Complementary Health Professionals of BC (CCHPBC)
