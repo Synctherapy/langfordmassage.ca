@@ -104,6 +104,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* Impeccable Polish: Browser Surfaces & Focus System */
 ::selection {
   background-color: var(--color-brand-violet);
@@ -514,6 +520,28 @@ nav.top-navbar {
   padding: 32px;
   box-shadow: var(--shadow-xl);
 }
+
+.visual-feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-cards);
+  border: 1px solid var(--color-fog);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 24px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-media-image {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-cards) - 4px);
+  margin-bottom: 18px;
+  border: 1px solid var(--color-fog);
+  object-fit: cover;
+  display: block;
+}
+
 
 /* Interactive Symptom Solver */
 .symptom-tab-container {
